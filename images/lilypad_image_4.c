@@ -1,18 +1,18 @@
 /*
  * Exported with nin10kit v1.8
- * Invocation command was nin10kit --mode=3 --resize=10x10 lilypad_image lilypad_image.png 
- * Time-stamp: Thursday 07/13/2023, 22:05:14
+ * Invocation command was nin10kit --mode=3 --resize=10x10 lilypad_image_4 lilypad_image_4.png 
+ * Time-stamp: Friday 08/25/2023, 18:27:23
  * 
  * Image Information
  * -----------------
- * lilypad_image.png 10@10
+ * lilypad_image_4.png 10@10
  * 
  * All bug reports / feature requests are to be filed here https://github.com/TricksterGuy/nin10kit/issues
  */
 
-#include "lilypad_image.h"
+#include "lilypad_image_4.h"
 
-const unsigned short lilypad_image[100] =
+const unsigned short lilypad_image_4[100] =
 {
 	0x7b0b,0x7b0b,0x1582,0x1582,0x7b0b,0x7b0b,0x1582,0x1582,0x7b0b,0x7b0b,0x7b0b,0x1582,0x1582,0x19c3,0x1582,0x1582,
 	0x19c3,0x1582,0x1582,0x7b0b,0x1582,0x1582,0x19c3,0x19c3,0x1582,0x1582,0x19c3,0x19c3,0x1582,0x1582,0x1582,0x19c3,

@@ -16,6 +16,7 @@ struct lilypad {
     int col;
     int height;
     int width;
+    int rand;
 };
 
 struct dragonfly {
@@ -35,6 +36,7 @@ struct finishLine {
 
 
 void setLily(int r, int c, struct lilypad *l);
+void drawLily(struct lilypad *l, int num);
 int leftLilypadCollision(struct frog, struct lilypad);
 int rightLilypadCollision(struct frog, struct lilypad);
 int bottomLilypadCollision(struct frog, struct lilypad);
