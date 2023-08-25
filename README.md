@@ -6,10 +6,14 @@ For more direct information on how to run the application, please contact the CS
 Start:
 
 To run, open a docker image using the command
+```
 ./cs2110docker.sh
+```
 in the terminal. A link with your ip address should be given. Open this in your browser, and click connect. Once running the image,
 open the project folder in the terminal (it should be inside the host folder). Run 
+```
 make mgba
+```
 to run the game.
 
 
