@@ -4,7 +4,10 @@
 #include <stdlib.h>
 
 #include "gba.h"
-#include "images/lilypad_image.h"
+#include "images/lilypad_image_1.h"
+#include "images/lilypad_image_2.h"
+#include "images/lilypad_image_3.h"
+#include "images/lilypad_image_4.h"
 #include "images/frog_sprite.h"
 #include "images/home_screen.h"
 #include "images/win_screen.h"
@@ -348,124 +351,124 @@ int main(void) {
           drawImageDMA(df4.row, df4.col, df4.width, df4.height, dragonfly);
           
           // Draw lily pad images
-          drawImageDMA(one.row, one.col, one.width, one.height, lilypad_image);
-          drawImageDMA(two.row, two.col, two.width, two.height, lilypad_image);
-          drawImageDMA(three.row, three.col, three.width, three.height, lilypad_image);
-          drawImageDMA(four.row, four.col, four.width, four.height, lilypad_image);
-          drawImageDMA(five.row, five.col, five.width, five.height, lilypad_image);
-          drawImageDMA(six.row, six.col, six.width, six.height, lilypad_image);
-          drawImageDMA(seven.row, seven.col, seven.width, seven.height, lilypad_image);
-          drawImageDMA(eight.row, eight.col, eight.width, eight.height, lilypad_image);
-          drawImageDMA(nine.row, nine.col, nine.width, nine.height, lilypad_image);
-          drawImageDMA(ten.row, ten.col, ten.width, ten.height, lilypad_image);
-          drawImageDMA(eleven.row, eleven.col, eleven.width, eleven.height, lilypad_image);
-          drawImageDMA(twelve.row, twelve.col, twelve.width, twelve.height, lilypad_image);
-          drawImageDMA(thirteen.row, thirteen.col, thirteen.width, thirteen.height, lilypad_image);
-          drawImageDMA(fourteen.row, fourteen.col, fourteen.width, fourteen.height, lilypad_image);
-          drawImageDMA(fifteen.row, fifteen.col, fifteen.width, fifteen.height, lilypad_image);
-          drawImageDMA(sixteen.row, sixteen.col, sixteen.width, sixteen.height, lilypad_image);
-          drawImageDMA(seventeen.row, seventeen.col, seventeen.width, seventeen.height, lilypad_image);
-          drawImageDMA(eighteen.row, eighteen.col, eighteen.width, eighteen.height, lilypad_image);
-          drawImageDMA(nineteen.row, nineteen.col, nineteen.width, nineteen.height, lilypad_image);
-          drawImageDMA(twenty.row, twenty.col, twenty.width, twenty.height, lilypad_image);
-          drawImageDMA(twentyone.row, twentyone.col, twentyone.width, twentyone.height, lilypad_image);
-          drawImageDMA(twentytwo.row, twentytwo.col, twentytwo.width, twentytwo.height, lilypad_image);
-          drawImageDMA(twentythree.row, twentythree.col, twentythree.width, twentythree.height, lilypad_image);
-          drawImageDMA(twentyfour.row, twentyfour.col, twentyfour.width, twentyfour.height, lilypad_image);
-          drawImageDMA(twentyfive.row, twentyfive.col, twentyfive.width, twentyfive.height, lilypad_image);
-          drawImageDMA(twentysix.row, twentysix.col, twentysix.width, twentysix.height, lilypad_image);
-          drawImageDMA(twentyseven.row, twentyseven.col, twentyseven.width, twentyseven.height, lilypad_image);
-          drawImageDMA(twentyeight.row, twentyeight.col, twentyeight.width, twentyeight.height, lilypad_image);
-          drawImageDMA(twentynine.row, twentynine.col, twentynine.width, twentynine.height, lilypad_image);
-          drawImageDMA(thirty.row, thirty.col, thirty.width, thirty.height, lilypad_image);
-          drawImageDMA(thirtyone.row, thirtyone.col, thirtyone.width, thirtyone.height, lilypad_image);
-          drawImageDMA(thirtytwo.row, thirtytwo.col, thirtytwo.width, thirtytwo.height, lilypad_image);
-          drawImageDMA(thirtythree.row, thirtythree.col, thirtythree.width, thirtythree.height, lilypad_image);
-          drawImageDMA(thirtyfour.row, thirtyfour.col, thirtyfour.width, thirtyfour.height, lilypad_image);
-          drawImageDMA(thirtyfive.row, thirtyfive.col, thirtyfive.width, thirtyfive.height, lilypad_image);
-          drawImageDMA(thirtysix.row, thirtysix.col, thirtysix.width, thirtysix.height, lilypad_image);
-          drawImageDMA(thirtyseven.row, thirtyseven.col, thirtyseven.width, thirtyseven.height, lilypad_image);
-          drawImageDMA(thirtyeight.row, thirtyeight.col, thirtyeight.width, thirtyeight.height, lilypad_image);
-          drawImageDMA(thirtynine.row, thirtynine.col, thirtynine.width, thirtynine.height, lilypad_image);
-          drawImageDMA(forty.row, forty.col, forty.width, forty.height, lilypad_image);
-          drawImageDMA(fortyone.row, fortyone.col, fortyone.width, fortyone.height, lilypad_image);
-          drawImageDMA(fortytwo.row, fortytwo.col, fortytwo.width, fortytwo.height, lilypad_image);
-          drawImageDMA(fortythree.row, fortythree.col, fortythree.width, fortythree.height, lilypad_image);
-          drawImageDMA(fortyfour.row, fortyfour.col, fortyfour.width, fortyfour.height, lilypad_image);
-          drawImageDMA(fortyfive.row, fortyfive.col, fortyfive.width, fortyfive.height, lilypad_image);
-          drawImageDMA(fortysix.row, fortysix.col, fortysix.width, fortysix.height, lilypad_image);
-          drawImageDMA(fortyseven.row, fortyseven.col, fortyseven.width, fortyseven.height, lilypad_image);
-          drawImageDMA(fortyeight.row, fortyeight.col, fortyeight.width, fortyeight.height, lilypad_image);
-          drawImageDMA(fortynine.row, fortynine.col, fortynine.width, fortynine.height, lilypad_image);
-          drawImageDMA(fifty.row, fifty.col, fifty.width, fifty.height, lilypad_image);
-          drawImageDMA(fiftyone.row, fiftyone.col, fiftyone.width, fiftyone.height, lilypad_image);
-          drawImageDMA(fiftytwo.row, fiftytwo.col, fiftytwo.width, fiftytwo.height, lilypad_image);
-          drawImageDMA(fiftythree.row, fiftythree.col, fiftythree.width, fiftythree.height, lilypad_image);
-          drawImageDMA(fiftyfour.row, fiftyfour.col, fiftyfour.width, fiftyfour.height, lilypad_image);
-          drawImageDMA(fiftyfive.row, fiftyfive.col, fiftyfive.width, fiftyfive.height, lilypad_image);
-          drawImageDMA(fiftysix.row, fiftysix.col, fiftysix.width, fiftysix.height, lilypad_image);
-          drawImageDMA(fiftyseven.row, fiftyseven.col, fiftyseven.width, fiftyseven.height, lilypad_image);
-          drawImageDMA(fiftyeight.row, fiftyeight.col, fiftyeight.width, fiftyeight.height, lilypad_image);
-          drawImageDMA(fiftynine.row, fiftynine.col, fiftynine.width, fiftynine.height, lilypad_image);
-          drawImageDMA(sixty.row, sixty.col, sixty.width, sixty.height, lilypad_image);
-          drawImageDMA(sixtyone.row, sixtyone.col, sixtyone.width, sixtyone.height, lilypad_image);
-          drawImageDMA(sixtytwo.row, sixtytwo.col, sixtytwo.width, sixtytwo.height, lilypad_image);
-          drawImageDMA(sixtythree.row, sixtythree.col, sixtythree.width, sixtythree.height, lilypad_image);
-          drawImageDMA(a.row, a.col, a.width, a.height, lilypad_image);
-          drawImageDMA(b.row, b.col, b.width, b.height, lilypad_image);
-          drawImageDMA(c.row, c.col, c.width, c.height, lilypad_image);
-          drawImageDMA(d.row, d.col, d.width, d.height, lilypad_image);
-          drawImageDMA(e.row, e.col, e.width, e.height, lilypad_image);
-          drawImageDMA(f.row, f.col, f.width, f.height, lilypad_image);
-          drawImageDMA(g.row, g.col, g.width, g.height, lilypad_image);
-          drawImageDMA(h.row, h.col, h.width, h.height, lilypad_image);
-          drawImageDMA(i.row, i.col, i.width, i.height, lilypad_image);
-          drawImageDMA(j.row, j.col, j.width, j.height, lilypad_image);
-          drawImageDMA(k.row, k.col, k.width, k.height, lilypad_image);
-          drawImageDMA(l.row, l.col, l.width, l.height, lilypad_image);
-          drawImageDMA(m.row, m.col, m.width, m.height, lilypad_image);
-          drawImageDMA(n.row, n.col, n.width, n.height, lilypad_image);
-          drawImageDMA(o.row, o.col, o.width, o.height, lilypad_image);
-          drawImageDMA(p.row, p.col, p.width, p.height, lilypad_image);
-          drawImageDMA(q.row, q.col, q.width, q.height, lilypad_image);
-          drawImageDMA(v.row, v.col, v.width, v.height, lilypad_image);
-          drawImageDMA(t.row, t.col, t.width, t.height, lilypad_image);
-          drawImageDMA(r.row, r.col, r.width, r.height, lilypad_image);
-          drawImageDMA(s.row, s.col, s.width, s.height, lilypad_image);
-          drawImageDMA(u.row, u.col, u.width, u.height, lilypad_image);
-          drawImageDMA(w.row, w.col, w.width, w.height, lilypad_image);
-          drawImageDMA(x.row, x.col, x.width, x.height, lilypad_image);
-          drawImageDMA(y.row, y.col, y.width, y.height, lilypad_image);
-          drawImageDMA(z.row, z.col, z.width, z.height, lilypad_image);
-          drawImageDMA(aa.row, aa.col, aa.width, aa.height, lilypad_image);
-          drawImageDMA(ab.row, ab.col, ab.width, ab.height, lilypad_image);
-          drawImageDMA(ac.row, ac.col, ac.width, ac.height, lilypad_image);
-          drawImageDMA(ad.row, ad.col, ad.width, ad.height, lilypad_image);
-          drawImageDMA(ae.row, ae.col, ae.width, ae.height, lilypad_image);
-          drawImageDMA(af.row, af.col, af.width, af.height, lilypad_image);
-          drawImageDMA(ag.row, ag.col, ag.width, ag.height, lilypad_image);
-          drawImageDMA(ah.row, ah.col, ah.width, ah.height, lilypad_image);
-          drawImageDMA(ai.row, ai.col, ai.width, ai.height, lilypad_image);
-          drawImageDMA(aj.row, aj.col, aj.width, aj.height, lilypad_image);
-          drawImageDMA(ak.row, ak.col, ak.width, ak.height, lilypad_image);
-          drawImageDMA(al.row, al.col, al.width, al.height, lilypad_image);
-          drawImageDMA(am.row, am.col, am.width, am.height, lilypad_image);
-          drawImageDMA(an.row, an.col, an.width, an.height, lilypad_image);
-          drawImageDMA(ao.row, ao.col, ao.width, ao.height, lilypad_image);
-          drawImageDMA(ap.row, ap.col, ap.width, ap.height, lilypad_image);
-          drawImageDMA(aq.row, aq.col, aq.width, aq.height, lilypad_image);
-          drawImageDMA(ar.row, ar.col, ar.width, ar.height, lilypad_image);
-          drawImageDMA(as.row, as.col, as.width, as.height, lilypad_image);
-          drawImageDMA(at.row, at.col, at.width, at.height, lilypad_image);
-          drawImageDMA(au.row, au.col, au.width, au.height, lilypad_image);
-          drawImageDMA(av.row, av.col, av.width, av.height, lilypad_image);
-          drawImageDMA(aw.row, aw.col, aw.width, aw.height, lilypad_image);
-          drawImageDMA(ax.row, ax.col, ax.width, ax.height, lilypad_image);
-          drawImageDMA(ay.row, ay.col, ay.width, ay.height, lilypad_image);
-          drawImageDMA(az.row, az.col, az.width, az.height, lilypad_image);
-          drawImageDMA(ba.row, ba.col, ba.width, ba.height, lilypad_image);
-          drawImageDMA(bb.row, bb.col, bb.width, bb.height, lilypad_image);
-          drawImageDMA(bc.row, bc.col, bc.width, bc.height, lilypad_image);
+          drawLily(&one, rand() % 4);
+          drawLily(&two, rand() % 4);
+          drawLily(&three, rand() % 4);
+          drawLily(&four, rand() % 4);
+          drawLily(&five, rand() % 4);
+          drawLily(&six, rand() % 4);
+          drawLily(&seven, rand() % 4);
+          drawLily(&eight, rand() % 4);
+          drawLily(&nine, rand() % 4);
+          drawLily(&ten, rand() % 4);
+          drawLily(&eleven, rand() % 4);
+          drawLily(&twelve, rand() % 4);
+          drawLily(&thirteen, rand() % 4);
+          drawLily(&fourteen, rand() % 4);
+          drawLily(&fifteen, rand() % 4);
+          drawLily(&sixteen, rand() % 4);
+          drawLily(&seventeen, rand() % 4);
+          drawLily(&eighteen, rand() % 4);
+          drawLily(&nineteen, rand() % 4);
+          drawLily(&twenty, rand() % 4);
+          drawLily(&twentyone, rand() % 4);
+          drawLily(&twentytwo, rand() % 4);
+          drawLily(&twentythree, rand() % 4);
+          drawLily(&twentyfour, rand() % 4);
+          drawLily(&twentyfive, rand() % 4);
+          drawLily(&twentysix, rand() % 4);
+          drawLily(&twentyseven, rand() % 4);
+          drawLily(&twentyeight, rand() % 4);
+          drawLily(&twentynine, rand() % 4);
+          drawLily(&thirty, rand() % 4);
+          drawLily(&thirtyone, rand() % 4);
+          drawLily(&thirtytwo, rand() % 4);
+          drawLily(&thirtythree, rand() % 4);
+          drawLily(&thirtyfour, rand() % 4);
+          drawLily(&thirtyfive, rand() % 4);
+          drawLily(&thirtysix, rand() % 4);
+          drawLily(&thirtyseven, rand() % 4);
+          drawLily(&thirtyeight, rand() % 4);
+          drawLily(&thirtynine, rand() % 4);
+          drawLily(&forty, rand() % 4);
+          drawLily(&fortyone, rand() % 4);
+          drawLily(&fortytwo, rand() % 4);
+          drawLily(&fortythree, rand() % 4);
+          drawLily(&fortyfour, rand() % 4);
+          drawLily(&fortyfive, rand() % 4);
+          drawLily(&fortysix, rand() % 4);
+          drawLily(&fortyseven, rand() % 4);
+          drawLily(&fortyeight, rand() % 4);
+          drawLily(&fortynine, rand() % 4);
+          drawLily(&fifty, rand() % 4);
+          drawLily(&fiftyone, rand() % 4);
+          drawLily(&fiftytwo, rand() % 4);
+          drawLily(&fiftythree, rand() % 4);
+          drawLily(&fiftyfour, rand() % 4);
+          drawLily(&fiftyfive, rand() % 4);
+          drawLily(&fiftysix, rand() % 4);
+          drawLily(&fiftyseven, rand() % 4);
+          drawLily(&fiftyeight, rand() % 4);
+          drawLily(&fiftynine, rand() % 4);
+          drawLily(&sixty, rand() % 4);
+          drawLily(&sixtyone, rand() % 4);
+          drawLily(&sixtytwo, rand() % 4);
+          drawLily(&sixtythree, rand() % 4);
+          drawLily(&a, rand() % 4);
+          drawLily(&b, rand() % 4);
+          drawLily(&c, rand() % 4);
+          drawLily(&d, rand() % 4);
+          drawLily(&e, rand() % 4);
+          drawLily(&f, rand() % 4);
+          drawLily(&g, rand() % 4);
+          drawLily(&h, rand() % 4);
+          drawLily(&i, rand() % 4);
+          drawLily(&j, rand() % 4);
+          drawLily(&k, rand() % 4);
+          drawLily(&l, rand() % 4);
+          drawLily(&m, rand() % 4);
+          drawLily(&n, rand() % 4);
+          drawLily(&o, rand() % 4);
+          drawLily(&p, rand() % 4);
+          drawLily(&q, rand() % 4);
+          drawLily(&r, rand() % 4);
+          drawLily(&s, rand() % 4);
+          drawLily(&t, rand() % 4);
+          drawLily(&u, rand() % 4);
+          drawLily(&v, rand() % 4);
+          drawLily(&w, rand() % 4);
+          drawLily(&x, rand() % 4);
+          drawLily(&y, rand() % 4);
+          drawLily(&z, rand() % 4);
+          drawLily(&aa, rand() % 4);
+          drawLily(&ab, rand() % 4);
+          drawLily(&ac, rand() % 4);
+          drawLily(&ad, rand() % 4);
+          drawLily(&ae, rand() % 4);
+          drawLily(&af, rand() % 4);
+          drawLily(&ag, rand() % 4);
+          drawLily(&ah, rand() % 4);
+          drawLily(&ai, rand() % 4);
+          drawLily(&aj, rand() % 4);
+          drawLily(&ak, rand() % 4);
+          drawLily(&al, rand() % 4);
+          drawLily(&am, rand() % 4);
+          drawLily(&an, rand() % 4);
+          drawLily(&ao, rand() % 4);
+          drawLily(&ap, rand() % 4);
+          drawLily(&aq, rand() % 4);
+          drawLily(&ar, rand() % 4);
+          drawLily(&as, rand() % 4);
+          drawLily(&at, rand() % 4);
+          drawLily(&au, rand() % 4);
+          drawLily(&av, rand() % 4);
+          drawLily(&aw, rand() % 4);
+          drawLily(&ax, rand() % 4);
+          drawLily(&ay, rand() % 4);
+          drawLily(&az, rand() % 4);
+          drawLily(&ba, rand() % 4);
+          drawLily(&bb, rand() % 4);
+          drawLily(&bc, rand() % 4);
         }
         break;
       case PLAY:
@@ -883,4 +886,18 @@ void setLily(int r, int c, struct lilypad *l) {
   l->col = c;
   l->width = 10;
   l->height = 10;
+}
+
+void drawLily(struct lilypad *l, int num) {
+  // num is a random integer 0-3 denoting which orientation the lilypad should have
+  // possible problem: how to make sure the lilypads only draw when game is loaded up? not every loop?
+  if (num == 0) {
+    drawImageDMA(l->row, l->col, l->width, l->height, lilypad_image_1);
+  } else if (num == 1) {
+    drawImageDMA(l->row, l->col, l->width, l->height, lilypad_image_2);
+  } else if (num == 2) {
+    drawImageDMA(l->row, l->col, l->width, l->height, lilypad_image_3);
+  } else if (num == 3) {
+    drawImageDMA(l->row, l->col, l->width, l->height, lilypad_image_4);
+  }
 }

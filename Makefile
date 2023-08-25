@@ -12,7 +12,7 @@ PROGNAME = FrogSwimSim
 # that will be compiled into your program. For example
 # if you have main.c and myLib.c then in the following
 # line you would put main.o and myLib.o
-OFILES = gba.o font.o main.o images/frog_sprite.o images/home_screen.o images/dragonfly.o images/win_screen.o images/lilypad_image.o
+OFILES = gba.o font.o main.o images/frog_sprite.o images/home_screen.o images/dragonfly.o images/win_screen.o images/lilypad_image_1.o images/lilypad_image_2.o images/lilypad_image_3.o images/lilypad_image_4.o
 
 ################################################################################
 # These are various settings used to make the GBA toolchain work
